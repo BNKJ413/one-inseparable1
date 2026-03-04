@@ -13,6 +13,7 @@
     "db:migrate": "npm -w apps/server run db:migrate",
     "db:seed": "npm -w apps/server run db:seed",
     "start": "node ./scripts/start.mjs"
+    "dev": "node server.js"
   },
   "devDependencies": {
     "concurrently": "^9.0.0"
