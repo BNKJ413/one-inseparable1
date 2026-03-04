@@ -1,1 +1,6 @@
-run = "npm run dev"
+run = "pnpm install && pnpm dev"
+
+language = "nodejs"
+
+[nix]
+channel = "stable-23_05"
